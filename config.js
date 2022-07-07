@@ -27,24 +27,26 @@ const chalk = require('chalk')
 // Website Api
 global.APIs = {
 	zenz: 'https://zenzapi.xyz',
-	dapa: 'https://dapuhy.xyz'
+	dapa: 'https://dapuhy.xyz',
+        neoxr: 'https://api.nxr.my.id'
 }
 
 // Apikey Website Api
 global.APIKeys = {
 	'https://zenzapi.xyz': '7A012A0F7751',
-	'https://dapuhy.xyz': 'piceg'
+	'https://dapuhy.xyz': 'piceg',
+         'https://api.nxr.my.id' : 'jntZZE'
 }
 
 // Other
-global.owner = ['27634090203','']
-global.premium = ['27634090203','918188019676']
-global.botname = 'ZIM BOT INC'
-global.ownername = 'DRIPS'
-global.group1 = 'https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A'
-global.group2 = 'https://chat.whatsapp.com/HSfcYU13g5C8GxINWwSWoA'
-global.packname = 'ZIM BOT INC'
-global.ytchannel = 'https://youtu.be/ww4z2m3uORU'
+global.owner = ['212632244668','212690516633']
+global.premium = ['212632244668','212690516633']
+global.botname = 'WOX BOT MD'
+global.ownername = 'BELLA MOHAMED'
+global.group1 = 'https://chat.whatsapp.com/GiMECyc19aOJp01Oc7PoyE'
+global.group2 = 'https://instagram.com/wox_bella'
+global.packname = 'BELLA BOT '
+global.ytchannel = 'https://chat.whatsapp.com/GiMECyc19aOJp01Oc7PoyE'
 global.monayawal = '100000'
 global.darahawal = '100'
 global.besiAwal = '15'
@@ -65,7 +67,7 @@ global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.docu
 global.f4 = 'application/zip'
 global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
-global.author = 'ZIM BOT INC'
+global.author = 'mohamed bella'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
