@@ -69,9 +69,9 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
-global.reactmoji = '🇿🇼'
+botname = 'WOX BOT INC'
+wm = 'WOX BOT INC'
+global.reactmoji = '🇲🇦'
 limitCount = setting.limit
 
 //read database
@@ -658,7 +658,7 @@ const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi 
      if (isCreator) return m.reply(zimbotv3)
      kice = m.sender
      await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no ig links here okay, now get out* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *خرج تقود هه ممنوع روابط انستا* `, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
      }
     }
      //lets go
@@ -671,7 +671,7 @@ const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi 
     if (isCreator) return m.reply(zimbotv3)
      kice = m.sender
      await ZimBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove')
-     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *I said no fb links here okay, now get out*`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+     ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split("@")[0]} *زبي ممنوع رابط فيسبوك ، خرج تقود هه *`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } 
      }
 //lets go
@@ -754,7 +754,7 @@ ZimBotInc.sendMessage(from, {text:`*▊▊▊DETECTED▊▊▊*\n\n@${kice.split
 //
 if (db.data.chats[m.chat].antilink) {
     if (budy.match(`chat.whatsapp.com`)) {
-    m.reply(`*▊▊▊ ANTILINK ▊▊▊*\n\n*You have been detected sending a group link, sorry you will be kicked!*`)
+    m.reply(`*▊▊▊ ANTILINK ▊▊▊*\n\n*بروس خرج *`)
     if (!isBotAdmins) return m.reply(`*Bbot must be admin okay*`)
     let gclink = (`https://chat.whatsapp.com/`+await ZimBotInc.groupInviteCode(m.chat))
     let isLinkThisGc = new RegExp(gclink, 'i')
